@@ -7,7 +7,7 @@ describe('restoreNames', () => {
 
   it('function restoreNames should be declared', () => {
     expect(restoreNames).toBeDefined();
-    expect(typeof restoreNames).toBeDefined();
+    expect(typeof restoreNames).toBe('function');
   });
 
   it('should return an array', () => {
